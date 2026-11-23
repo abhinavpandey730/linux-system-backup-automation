@@ -1,0 +1,20 @@
+
+
+# Backup archives
+backup/*.tar.gz
+
+# Log files
+logs/*.log
+
+# Generated reports
+logs/backup_report.txt
+reports/*.txt
+
+# Temporary and editor files
+*.save
+
+# Old script
+backup.sh'
+
+# Restore testing directory
+restore-test/
