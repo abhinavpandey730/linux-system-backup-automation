@@ -9,6 +9,8 @@ BACKUP_DIR="$BASE_DIR/backup"
 LOG_DIR="$BASE_DIR/logs"
 REPORT_DIR="$BASE_DIR/reports"
 
+# Create project directories if they do not exist
+mkdir -p "$BACKUP_DIR" "$LOG_DIR" "$REPORT_DIR"
 
 #Date and time 
  
